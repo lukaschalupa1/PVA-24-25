@@ -3,18 +3,16 @@
     margin: 0;
     padding: 0;
 }
-body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
-
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 #navbar {
     background-color:  #D5D3D0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 #navbar .logo {
@@ -27,22 +25,17 @@ body {
     list-style-type: none;
 }
 
-
-
 #navbar ul li a {
     display: flex;
-
     color: black;
     text-decoration: none;
     padding: 0.6rem 0.8rem;
     margin: 10px 10px;
-
 }
 
 #navbar ul li a:hover {
     border-radius: 10px 10px;
     background-color: #B09D8F;
-
 }
 
 .l-heading {
@@ -50,17 +43,17 @@ body {
     margin-bottom: 0.75rem;
     line-height: 1.1;
 }
+
 .lead{
     font-size: 1,3rem;  
     margin-bottom: 2rem;
-    
 }
 
 .btn{
     display: inline-black;
     color: #fff;
     background-color: aqua;
-    padding: 1rem, 2rem;
+    padding: 7px;
     border: none;
     border-radius: 5px;
     text-decoration: none;
@@ -69,21 +62,20 @@ body {
 
 .btn:hover{
     background-color: aquamarine;
-    
 }
-
 
 #navbar{
     display: flex;
     background-color: antiquewhite;
     justify-content: space-between;
-
 }
+
 #showcase{
     background: #333 url("./img/pero.jpg") no-repeat center center/cover;
     height: 100vh;
     color: #fff;    
 }
+
 #showcase .showcase-content {
     display: flex;
     flex-direction: column;
@@ -94,39 +86,40 @@ body {
     padding: 0 2rem;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 .container {
     max-width: 1100px;
     margin: auto;
     padding: 0 2rem;
     overflow: hidden;
-    }
+}
  
 .py-1 {
     padding: 1.5rem 0;
-    }
+}
  
 .text-center {
     text-align: center;
-    }
+}
  
 .m-heading {
     font-size: 2rem;
     margin-bottom: 0.75rem;
     line-height: 1.1;
-    }
- 
+}
+
 #what .items {
     display: flex;
     padding: 1rem;
     justify-content: space-between;
-    }
- 
+}
+
 #what .item {
     text-align: center;
     padding: 1rem;
     justify-content: space-between;
-    }
- 
+}
+
 #what .items .item i {
     background-color: #FAF7F0;
     padding: 1rem;
@@ -134,4 +127,76 @@ body {
     margin-bottom: 1rem;
     align-self: center;
     line-height: 25px;
-    }
+}
+
+/* Přidané styly pro tabulku, formulář, obrázek vlevo a zápatí */
+
+.image-text-block img {
+    float: left;
+    margin-right: 20px;
+    max-width: 300px;
+    height: auto;
+}
+
+.image-text-block p {
+    text-align: justify;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: aqua;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+form input[type="submit"]:hover {
+    background-color: aquamarine;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
