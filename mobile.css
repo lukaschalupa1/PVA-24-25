@@ -1,0 +1,15 @@
+/* mobile.css */
+/* Styl pro mobilní zařízení (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav a {
+        display: block;
+        margin: 10px 0;
+    }
+    .social-links {
+        display: none;
+    }
+}
