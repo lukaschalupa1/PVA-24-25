@@ -1,0 +1,69 @@
+/* Mobile navigation */
+.header {
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nav a {
+    font-size: 18px; /* Zvětšení textu pro lepší čitelnost */
+    padding: 10px;
+    border-bottom: 1px solid #444;
+    text-align: center;
+}
+
+/* Tlačítko pro zobrazení menu na mobilu */
+.header .nav {
+    display: none; /* Skryjeme hlavní navigaci na mobilu */
+}
+
+/* Zobrazíme menu po kliknutí */
+.header .menu-toggle {
+    display: block;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.nav a:hover {
+    background-color: #ff6600;
+}
+/* Mobile form adjustments */
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+
+.contact-section input[type="text"],
+.contact-section input[type="email"],
+.contact-section textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background-color: #222;
+    color: white;
+}
+
+.contact-section button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #ff6600;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.contact-section button:hover {
+    background-color: #e65c00;
+}
