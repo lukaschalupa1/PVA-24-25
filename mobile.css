@@ -1,0 +1,50 @@
+/* mobile.css */
+/* Styl pro mobilní zařízení (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav a {
+        display: block;
+        margin: 10px 0;
+    }
+    .social-links {
+        display: none;
+    }
+}
+/* Formulář - úprava layoutu pro mobilní zařízení */
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px; /* Přidá mezeru mezi poli */
+}
+.contact-section input[type="text"],
+.contact-section input[type="email"],
+.contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #222;
+    color: white;
+    box-sizing: border-box;
+}
+.contact-section textarea {
+    resize: vertical; /* Povolit změnu velikosti výšky pro pohodlné psaní */
+}
+.contact-section button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #ff6600;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px; /* Oddělí tlačítko od ostatních polí */
+}
+.contact-section button:hover {
+    background-color: #e65c00;
+}
